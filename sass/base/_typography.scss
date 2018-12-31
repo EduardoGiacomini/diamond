@@ -3,3 +3,28 @@ body {
     line-height: 1.7;
     font-weight: 400;
 }
+
+.heading-primary {
+    color: $color-white;
+    text-transform: uppercase;
+
+    &--big {
+        display: block;
+        font-size: 6rem;
+        font-weight: 600;
+        letter-spacing: 2rem;
+        line-height: 1.5;
+
+        animation: move-in-right 1s ease-out;
+    }
+
+    &--small {
+        display: block;
+        font-size: 2rem;
+        font-weight: 400;
+        letter-spacing: 1rem;
+        line-height: 1.5;
+
+        animation: move-in-left 1s ease-out;
+    }
+}
