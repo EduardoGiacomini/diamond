@@ -34,3 +34,23 @@
         }
     }
 }
+
+.section-features {
+    background-color: $color-grey-light-2;
+    padding: 10rem 0 25rem 0;
+    transform: skewY(-7deg);
+    margin-top: -13rem;
+
+    & > * {
+        transform: skewY(7deg);
+    }
+    
+    &__cards {
+        padding: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 160rem;
+    }
+}
