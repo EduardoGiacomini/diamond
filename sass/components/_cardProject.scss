@@ -1,0 +1,19 @@
+.card-project {
+    background-color: $color-white;
+    max-width: 35rem;
+    margin: 4rem 3rem 2rem 3rem;
+    padding: 2rem;
+    text-align: center;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba($color-black, .2);
+    transition: all .3s;
+
+    &__picture {
+        width: 100%;
+    }
+
+    &:hover {
+        box-shadow: 0 1rem 2rem rgba($color-black, .2);
+        transform: translateY(-1rem) scale(1.02);
+    }
+}
