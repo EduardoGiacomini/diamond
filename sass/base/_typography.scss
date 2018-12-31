@@ -28,3 +28,37 @@ body {
         animation: move-in-left 1s ease-out;
     }
 }
+
+.heading-secondary {
+    color: $color-grey-dark;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: .2rem;
+    font-size: 3rem;
+    padding: 0 .5rem;
+    line-height: 1;
+    border-left: .3rem solid $color-primary-light;
+    border-right: .3rem solid $color-primary-light;
+    transition: all .2s;
+
+    &:hover {
+        text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
+    }
+}
+
+.heading-tertiary {
+    color: $color-grey-dark;
+    text-transform: uppercase;
+    display: block;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.paragraph {
+    font-size: $default-font-size;
+    color: $color-grey-dark;
+
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+}

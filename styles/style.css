@@ -53,6 +53,33 @@ body {
     line-height: 1.5;
     animation: move-in-left 1s ease-out; }
 
+.heading-secondary {
+  color: #333333;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: .2rem;
+  font-size: 3rem;
+  padding: 0 .5rem;
+  line-height: 1;
+  border-left: 0.3rem solid #55828b;
+  border-right: 0.3rem solid #55828b;
+  transition: all .2s; }
+  .heading-secondary:hover {
+    text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
+
+.heading-tertiary {
+  color: #333333;
+  text-transform: uppercase;
+  display: block;
+  font-size: 2rem;
+  font-weight: 600; }
+
+.paragraph {
+  font-size: 1.6rem;
+  color: #333333; }
+  .paragraph:not(:last-child) {
+    margin-bottom: 3rem; }
+
 .u-center-text {
   text-align: center !important; }
 
@@ -95,6 +122,30 @@ body {
     border: 0.2rem solid #ffffff;
     color: #ffffff; }
 
+.btn-link:link, .btn-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #3b6064;
+  display: inline-block;
+  border-bottom: 0.2rem solid #3b6064;
+  background-color: transparent;
+  padding: .1rem .3rem;
+  transition: all .2s; }
+
+.btn-link:hover {
+  background-color: #3b6064;
+  color: #ffffff;
+  border-radius: .3rem;
+  transform: translateY(-0.3rem);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+
+.btn-link:active, .btn-link:focus {
+  background-color: #3b6064;
+  color: #ffffff;
+  border-radius: .3rem;
+  transform: translateY(-0.1rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+
 .header {
   height: 100vh;
   background-image: linear-gradient(to right bottom, rgba(85, 130, 139, 0.8), rgba(54, 73, 88, 0.8)), url(../assets/header.jpg);
@@ -114,3 +165,29 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
+
+.section-about {
+  background-color: #faf9f9;
+  padding: 5rem 0 25rem 0; }
+  .section-about__information {
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    max-width: 160rem; }
+    .section-about__information--box {
+      width: 50%;
+      padding: 2rem; }
+  .section-about__picture-box {
+    text-align: center; }
+    .section-about__picture-box--picture {
+      width: 80%;
+      max-width: 45rem;
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+      border-radius: .2rem;
+      outline-offset: .2rem;
+      opacity: .8;
+      transition: all .25s; }
+      .section-about__picture-box--picture:hover {
+        transform: scale(1.02) translateY(-0.5rem);
+        box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+        opacity: .95; }
