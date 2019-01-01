@@ -38,6 +38,12 @@
             color: $color-white;
         }
     }
+
+    &--secondary {
+        background-color: $color-primary-light;
+        border: none;
+        color: $color-white;
+    }
 }
 
 .btn-link {

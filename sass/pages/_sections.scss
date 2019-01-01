@@ -70,3 +70,22 @@
         max-width: 160rem;
     }    
 }
+
+.section-contact {
+    background-color: rgba($color-primary-light, .09);
+    padding: 5rem 0 25rem 0;
+
+    &__information {
+        margin: 0 auto;
+        display: flex;
+        align-items: flex-start;
+        max-width: 160rem;
+
+        &--box {
+            width: 50%;
+            padding: 4rem;
+        }
+    }
+
+
+}
