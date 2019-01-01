@@ -1,6 +1,6 @@
 .section-about {
     background-color: $color-grey-light;
-    padding: 5rem 0 25rem 0;
+    padding: 5rem 0 30rem 0;
 
     &__information {
         margin: 0 auto;
@@ -37,7 +37,7 @@
 
 .section-features {
     background-color: $color-grey-light-2;
-    padding: 10rem 0 25rem 0;
+    padding: 10rem 0 20rem 0;
     transform: skewY(-7deg);
     margin-top: -13rem;
 
@@ -57,7 +57,7 @@
 
 .section-projects {
     background-color: $color-grey-light;
-    padding: 23rem 0 25rem 0;
+    padding: 23rem 0 10rem 0;
     margin-top: -13rem;
 
     &__cards {
@@ -73,7 +73,7 @@
 
 .section-contact {
     background-color: rgba($color-primary-light, .09);
-    padding: 5rem 0 25rem 0;
+    padding: 5rem 0 10rem 0;
 
     &__information {
         margin: 0 auto;
