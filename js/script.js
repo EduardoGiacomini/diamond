@@ -1,3 +1,15 @@
+/*
+    @submit is a function that is performed after submission of the form "#form-contact"
+*/
+
+document.querySelector("#form-contact").addEventListener("submit", submit);
+
+function submit(event) {
+    event.preventDefault();
+
+    alert("Olá usuário, este formulário não possui funcionalidade, este projeto é apenas um design estético.");
+}
+
 // --- ORIGAMID SOLUTION ---
 
 // Identificar o clique no menu
