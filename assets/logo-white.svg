@@ -1,1 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 421 323"><defs><style>.cls-2{fill:#fff}</style></defs><g id="Group_6" data-name="Group 6" transform="translate(-720 -3020)"><g id="Group_5" data-name="Group 5" transform="translate(0 43)"><text id="DIAMOND" transform="translate(720 3270)" font-size="100" font-family="CourierNewPSMT,Courier New" fill="#fff"><tspan x="0" y="0">DIAMOND</tspan></text></g><g id="ecommerce_diamond" transform="translate(805.344 3015)"><g id="Group_1" data-name="Group 1" transform="translate(-.344 5)"><path id="Path_239" data-name="Path 239" class="cls-2" d="M124.443 214.936L-.344 90.149 68.589 5H180.3l68.93 85.149zm3.857-202.22v187.451L238.859 89.609l-62.243-76.893zM10.027 89.609l110.558 110.558V12.716H72.27z" transform="translate(.344 -5)"/></g><g id="Group_2" data-name="Group 2" transform="translate(66.324 7.797)"><path id="Path_240" data-name="Path 240" class="cls-2" d="M71.559 205.182L16.936 88.131 40.482 5.725 47.9 7.847 25.146 87.482l53.4 114.436z" transform="translate(-16.936 -5.725)"/></g><g id="Group_3" data-name="Group 3" transform="translate(120.948 7.797)"><path id="Path_241" data-name="Path 241" class="cls-2" d="M38.085 205.182l-6.991-3.264L84.5 87.482 61.747 7.847l7.415-2.122 23.546 82.406z" transform="translate(-31.094 -5.725)"/></g><g id="Group_4" data-name="Group 4" transform="translate(4.841 86.021)"><path id="Rectangle_1095" data-name="Rectangle 1095" class="cls-2" d="M0 0h239.203v7.716H0z"/></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 421 323">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        font-size: 100px;
+        font-family: CourierNewPSMT, Courier New;
+      }
+    </style>
+  </defs>
+  <g id="Group_6" data-name="Group 6" transform="translate(-720 -3020)">
+    <g id="Group_5" data-name="Group 5" transform="translate(0 43)">
+      <text id="DIAMOND" class="cls-1" transform="translate(720 3270)"><tspan x="0" y="0">DIAMOND</tspan></text>
+    </g>
+    <g id="ecommerce_diamond" transform="translate(805.344 3015)">
+      <g id="Group_1" data-name="Group 1" transform="translate(-0.344 5)">
+        <path id="Path_239" data-name="Path 239" class="cls-2" d="M124.443,214.936-.344,90.149,68.589,5H180.3L249.23,90.149ZM128.3,12.716V200.167L238.859,89.609,176.616,12.716ZM10.027,89.609,120.585,200.167V12.716H72.27Z" transform="translate(0.344 -5)"/>
+      </g>
+      <g id="Group_2" data-name="Group 2" transform="translate(66.324 7.797)">
+        <path id="Path_240" data-name="Path 240" class="cls-2" d="M71.559,205.182,16.936,88.131,40.482,5.725,47.9,7.847,25.146,87.482l53.4,114.436Z" transform="translate(-16.936 -5.725)"/>
+      </g>
+      <g id="Group_3" data-name="Group 3" transform="translate(120.948 7.797)">
+        <path id="Path_241" data-name="Path 241" class="cls-2" d="M38.085,205.182l-6.991-3.264L84.5,87.482,61.747,7.847l7.415-2.122L92.708,88.131Z" transform="translate(-31.094 -5.725)"/>
+      </g>
+      <g id="Group_4" data-name="Group 4" transform="translate(4.841 86.021)">
+        <rect id="Rectangle_1095" data-name="Rectangle 1095" class="cls-2" width="239.203" height="7.716"/>
+      </g>
+    </g>
+  </g>
+</svg>
