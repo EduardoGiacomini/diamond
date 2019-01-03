@@ -10,7 +10,17 @@
 
         &--box {
             width: 50%;
-            padding: 2rem;
+            padding: 2rem 8rem;
+
+            @include respond(tab-port) {
+                width: 80%;
+                margin: 0 auto;
+                padding: 2rem;
+            }
+        }
+
+        @include respond(tab-port) {
+            flex-direction: column;
         }
     }
 
@@ -33,6 +43,10 @@
             }
         }
     }
+
+    @include respond(tab-land) {
+        padding: 5rem 0 20rem 0;
+    }
 }
 
 .section-features {
@@ -46,12 +60,25 @@
     }
     
     &__cards {
-        padding: 2rem;
+        padding: 2rem 8rem;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
         margin: 0 auto;
         max-width: 160rem;
+
+        @include respond(phone) {
+            padding: 2rem 4rem;
+        }
+    }
+
+    @include respond(tab-land) {
+        padding: 10rem 0 10rem 0;
+    }
+
+    @include respond(phone) {
+        padding: 7.5rem 0 7.5rem 0;
     }
 }
 
@@ -68,7 +95,11 @@
         flex-wrap: wrap;
         margin: 0 auto;
         max-width: 160rem;
-    }    
+    }
+    
+    @include respond(phone) {
+        padding: 20rem 0 7.5rem 0;
+    }
 }
 
 .section-contact {
@@ -83,7 +114,19 @@
 
         &--box {
             width: 50%;
-            padding: 4rem;
+            padding: 4rem 8rem;
+
+            @include respond(tab-land) {
+                width: 100%;
+            }
+
+            @include respond(phone) {
+                padding: 4rem;
+            }
+        }
+
+        @include respond(tab-land) {
+            flex-direction: column;
         }
     }
 

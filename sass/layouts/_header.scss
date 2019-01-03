@@ -26,5 +26,15 @@
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
+
+        &--buttons {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            @include respond(tab-land) {
+                flex-direction: column;
+            }
+        }
     }
 }
