@@ -81,7 +81,7 @@ body {
     @media only screen and (max-width: 43.75em) {
       .heading-primary--small {
         font-size: 1.5rem;
-        letter-spacing: .5ssrem; } }
+        letter-spacing: .5rem; } }
 
 .heading-secondary {
   color: #333333;
