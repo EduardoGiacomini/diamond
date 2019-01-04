@@ -76,10 +76,12 @@ body {
     animation: move-in-left 1s ease-out; }
     @media only screen and (max-width: 56.25em) {
       .heading-primary--small {
-        font-size: 1.75rem; } }
+        font-size: 1.75rem;
+        letter-spacing: .75rem; } }
     @media only screen and (max-width: 43.75em) {
       .heading-primary--small {
-        font-size: 1rem; } }
+        font-size: 1.5rem;
+        letter-spacing: .5ssrem; } }
 
 .heading-secondary {
   color: #333333;
@@ -112,7 +114,7 @@ body {
       font-size: 1.75rem; } }
   @media only screen and (max-width: 43.75em) {
     .heading-tertiary {
-      font-size: 1.25rem; } }
+      font-size: 1.5rem; } }
 
 .paragraph {
   font-size: 1.6rem;
@@ -121,10 +123,7 @@ body {
     margin-bottom: 3rem; }
   @media only screen and (max-width: 56.25em) {
     .paragraph {
-      font-size: 1.25rem; } }
-  @media only screen and (max-width: 43.75em) {
-    .paragraph {
-      font-size: 1rem; } }
+      font-size: 1.5rem; } }
 
 .u-center-text {
   text-align: center !important; }
@@ -153,11 +152,10 @@ body {
   cursor: pointer; }
   @media only screen and (max-width: 56.25em) {
     .btn, .btn:link, .btn:visited {
-      font-size: 1.25rem;
+      font-size: 1.5rem;
       padding: 1.25rem 3.5rem; } }
   @media only screen and (max-width: 43.75em) {
     .btn, .btn:link, .btn:visited {
-      font-size: 1rem;
       padding: 1.25rem 3rem; } }
 
 .btn:hover {
@@ -194,10 +192,7 @@ body {
   transition: all .2s; }
   @media only screen and (max-width: 56.25em) {
     .btn-link:link, .btn-link:visited {
-      font-size: 1.25rem; } }
-  @media only screen and (max-width: 43.75em) {
-    .btn-link:link, .btn-link:visited {
-      font-size: 1rem; } }
+      font-size: 1.5rem; } }
 
 .btn-link:hover {
   background-color: #3b6064;

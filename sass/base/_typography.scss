@@ -37,10 +37,12 @@ body {
 
         @include respond(tab-port) {
             font-size: 1.75rem;
+            letter-spacing: .75rem;
         }
 
         @include respond(phone) {
-            font-size: 1rem;
+            font-size: 1.5rem;
+            letter-spacing: .5ssrem;
         }
     }
 }
@@ -82,7 +84,7 @@ body {
     }
 
     @include respond(phone) {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -95,10 +97,6 @@ body {
     }
 
     @include respond(tab-port) {
-        font-size: 1.25rem;
-    }
-
-    @include respond(phone) {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 }
