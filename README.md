@@ -4,6 +4,13 @@
 
 A simple and beautiful Landing Page for Diamond (fictional company) developed with HTML, CSS, Sass and Javascript. This Landing Page was created to behave well on different devices of different screen sizes.
 
+## Overview:
+
+![diamond-mockup](https://user-images.githubusercontent.com/31314944/52521906-ad296100-2c65-11e9-8821-7641b4b103c1.png)
+
+**Thanks _[Jamboe](https://www.jamboe.net/)_ for the awesome mockup.**
+
+
 ## Usage
 
 ### Basic usage
